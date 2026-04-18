@@ -23,6 +23,33 @@
 | 📊 **Access Analyzer** | Validate policies before deployment |
 | 🖥️ **Streamlit UI** | Easy-to-use web interface |
 
+
+## Objective
+Build a zero-trust access control platform for AWS S3 to automate IAM policy management and enforce least privilege principles.
+
+## Key Skills Demonstrated
+- AWS IAM policy design and automation
+- S3 bucket security configuration
+- Zero-trust architecture implementation
+- API integration with boto3
+
+## My Process
+1. **IAM Policy Design**: Created least-privilege policies (read-only, write-only, full-access)
+2. **S3 Security**: Configured bucket policies and Block Public Access
+3. **Automation**: Built Python scripts using boto3 for policy management
+4. **Validation**: Tested policies with AWS Access Analyzer
+
+## Tools Used
+- AWS IAM, AWS S3, AWS Access Analyzer
+- Python, boto3, Streamlit
+- AWS CLI
+
+## Key Takeaways
+- Least privilege is critical for cloud security
+- Automated policy validation prevents misconfigurations
+- Zero-trust requires continuous verification
+
+
 ## 🚀 Quick Start
 
 ```bash
